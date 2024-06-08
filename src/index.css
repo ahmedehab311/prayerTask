@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 200px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+html {
+  direction: rtl;
+}
+
+.select-container {
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+select:focus {
+  outline: none;
+}
+
+.country-info {
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+.select-country {
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.prayer-timings {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.prayer-timings h2 {
+  margin-bottom: 10px;
+}
+
+.prayer-timings div {
+  margin-bottom: 10px;
+}
+
+.prayer-timings span {
+  font-size: 18px;
+}
